@@ -1,0 +1,39 @@
+# Copy this file to .env and fill in your values
+# Never commit .env to version control
+
+# ── Platform ──────────────────────────────────────────────────────────────
+PLATFORM_BASE_URL=https://your-platform.example.com
+HS_USERNAME=your@email.com
+HS_PASSWORD=yourpassword
+
+# ── Monday.com ────────────────────────────────────────────────────────────
+MONDAY_API_TOKEN=your_monday_api_token
+MONDAY_BOARD_ID=your_board_id
+
+# Group IDs (find in Monday board URL or API explorer)
+MONDAY_COMPLETED_GROUP_ID=your_completed_group_id
+MONDAY_TRANSFERRED_GROUP_ID=your_transferred_group_id
+
+# Column IDs (find via Monday API or board settings)
+MONDAY_SERIAL_PHOTO_COL=your_serial_photo_column_id
+MONDAY_ID_PHOTO_COL=your_id_photo_column_id
+MONDAY_SERIAL_NUM_COL=your_serial_num_column_id
+MONDAY_INVENTORY_ID_COL=your_inventory_id_column_id
+MONDAY_MODEL_COL=your_model_column_id
+MONDAY_STATUS_COL=status
+
+# ── Sync settings ─────────────────────────────────────────────────────────
+POLL_INTERVAL_MINS=30
+APP_NAME=OrderPhotoSync
+SYNC_BASE_DIR=/path/to/sync/output    # defaults to ~/order_photo_sync
+
+# ── File paths ────────────────────────────────────────────────────────────
+SCREENSHOT_DIR=/path/to/screenshots   # defaults to ~/order_photo_sync/screenshots
+DOWNLOAD_DIR=/path/to/inbox           # defaults to ~/order_photo_sync/inbox
+
+# ── Email notifications (optional) ────────────────────────────────────────
+EMAIL_FROM=sender@yourdomain.com
+EMAIL_PASSWORD=your_email_password
+EMAIL_TO=recipient1@yourdomain.com,recipient2@yourdomain.com
+SMTP_HOST=smtp.office365.com
+SMTP_PORT=587
