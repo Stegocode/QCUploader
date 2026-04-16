@@ -6,7 +6,7 @@ A full warehouse operations automation suite that detects pick and receive error
 
 ## What It Does
 
-Every day, warehouse pickers pull appliances for tomorrow's deliveries and photograph each unit — one photo of the model/serial number on the box, one photo of the internal inventory label. Monday.com's AI extracts the model and serial data from those photos automatically.
+Every day, warehouse pickers pull product for tomorrow's deliveries and photograph each piece — one photo of the model/serial number on the box, one photo of the internal inventory label. Monday.com's AI extracts the model and serial data from those photos automatically.
 
 QCUploader runs in the background and does three things:
 
